@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ostad Clone</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!-- Vanilla CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header Section Start -->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="logo-img" src="./assets/images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <form class="d-flex search" role="search">
+                                <input class="form-control me-2 search-field" type="search"
+                                    placeholder="কোর্স সার্চ করুন" aria-label="Search">
+                                <img class="search-img" src="./assets/images/search.svg" alt="search image">
+                            </form>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active special-offer" aria-current="page" href="#">স্পেশাল অফার</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">কোড মামা</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ফ্রী কোর্সেস
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ব্লগ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                ডাউনলোড
+                            </a>
+
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <span class="dropdown-icon-text"><i class="fa-brands fa-android"></i>
+                                            Android</span>
+                                        <i class="fa-solid fa-arrow-down"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <span class="dropdown-icon-text"><i class="fa-brands fa-app-store-ios"></i>
+                                            iOS/MAC</span>
+                                        <i class="fa-solid fa-arrow-down"></i>
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <span class="dropdown-icon-text"><i class="fa-brands fa-windows"></i>
+                                            Windows</span>
+                                        <i class="fa-solid fa-arrow-down"></i>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <ul class="navbar-nav nav-right">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                <img src="./assets/images/en.png" alt="UK Flag">
+                                <span>EN</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown courses">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                সব কোর্স
+                            </a>
+
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <span class="dropdown-icon-text"><i class="fa-brands fa-android"></i>
+                                            Android</span>
+                                        <i class="fa-solid fa-arrow-down"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <span class="dropdown-icon-text"><i class="fa-brands fa-app-store-ios"></i>
+                                            iOS/MAC</span>
+                                        <i class="fa-solid fa-arrow-down"></i>
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <span class="dropdown-icon-text"><i class="fa-brands fa-windows"></i>
+                                            Windows</span>
+                                        <i class="fa-solid fa-arrow-down"></i>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link btn-common" type="submit">
+                                <span>লগিন/সাইনআপ </span> <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Main Section Start  -->
+    <main>
+        <!-- Piku Section -->
+        <section id="piku mt-3">
+            <div class="container">
+                <div class="row">
+                    <a class="piku" href="">
+                        <span class="badge text-bg">নতুন</span>
+                        <img class="piku-img" src="./assets/images/piku.png" alt="">
+                        <span>হ্যালো আমি পিকু! আপনার 24/7 লার্নিং
+                            বাডি</span>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Banner Section -->
+        
+    </main>
+    <!-- Main Section End  -->
+
+    <!-- Footer Section Start -->
+    <footer>
+
+    </footer>
+    <!-- Footer Section End -->
+
+
+    <!-- Bootstrap JS -->
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

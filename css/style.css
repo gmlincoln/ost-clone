@@ -1,0 +1,117 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Hind Siliguri", serif;
+}
+
+.navbar {
+    padding: 20px;
+    box-shadow: 2px 1px 5px rgb(204, 196, 196);
+}
+
+.logo-img {
+    width: 100px;
+    object-fit: contain;
+}
+
+.dropdown-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-icon-text {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.search {
+    position: relative;
+}
+
+.search-field {
+    padding-left: 40px;
+}
+
+.search-img {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.special-offer {
+    border: 1px solid darkkhaki;
+    border-radius: 8px;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.courses {
+    background-color: rgba(142, 140, 140, 0.2);
+    border-radius: 5px;
+}
+
+.nav-right {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-common {
+    background-color: #FFC000;
+    filter: brightness(0.9);
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn-common:hover {
+    background-color: #FFC000;
+    filter: brightness(1);
+}
+
+li a {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #101828;
+
+}
+
+
+
+.piku {
+    text-decoration: none;
+    background-color: #DAE4FF;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.text-bg {
+    background-color: #5852FA;
+}
+
+.piku-img {
+    width: 22px;
+}

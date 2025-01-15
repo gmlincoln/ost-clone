@@ -102,9 +102,6 @@ li a {
     background-color: #DAE4FF;
     padding: 5px 10px;
     border-radius: 20px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
     font-size: 16px;
     width: 35%;
@@ -138,8 +135,7 @@ li a {
 }
 
 .hero-left {
-    display: flex;
-    flex-direction: column;
+
     gap: 20px;
 }
 
@@ -158,6 +154,9 @@ li a {
     color: #1D2939;
 }
 
+.hero-left h2 img {
+    width: 150px;
+}
 
 .hero-right img {
     width: 100%;
@@ -176,5 +175,65 @@ li a {
 }
 
 .company img:hover {
+    filter: grayscale(0.0);
+}
+
+/* upcoming-course section */
+#upcoming-course {
+    padding: 50px 0px;
+
+}
+
+#upcoming-course .row h2 {
+    font-weight: 700;
+}
+
+#upcoming-course .row h2>img {
+    width: 40px;
+}
+
+
+
+.upcoming-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px #101828;
+    filter: grayscale(1.0);
+
+}
+
+.course-types {
+    gap: 20px;
+}
+
+.course-item {
+    width: 22%;
+    gap: 10px;
+    align-items: center;
+    background: #EAECF0;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.course-type-content h5 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.course-type-content p {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.course-item:hover {
+    background: #1D2939;
+    color: #fff;
+}
+
+.course-item:hover .upcoming-img {
     filter: grayscale(0.0);
 }
